@@ -1,0 +1,71 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-size: 18px;
+}
+
+#header {
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.headerTab {
+    padding: 1em;
+    flex-grow: 1;
+    border-left: 2px solid black;
+}
+
+.headerTab:first-child {
+    border-left: 0px;
+}
+
+
+.mainTab {
+    flex-grow: 5;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    flex-grow: 1;
+}
+
+#footer {
+    background-color: grey;
+    padding: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.signin {
+    text-decoration: underline;
+}
+
+.content {
+    margin: 10px;
+}
+
+.content input {
+    margin-top: 10px;
+}
+
+.split {
+    display: flex;
+}
+
+.split form {
+    flex-grow: 1;
+}

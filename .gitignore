@@ -1,0 +1,7 @@
+# Macs
+**/.DS_STORE
+
+# zip files
+/zips
+
+**/test*.html

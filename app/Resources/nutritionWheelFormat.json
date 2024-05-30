@@ -1,0 +1,24 @@
+{
+   "Carbohydrates":{
+      "_data":{"api_name":"carbohydrates_total_g","DRV":275,"CPG":4,"color":"#400"},
+      "Sugar":{
+         "_data":{"api_name":"sugar_g","DRV":50,"color":"#800"}
+      },
+      "Fiber":{"_data":{"api_name":"fiber_g","DRV":28,"color":"pink"}}
+   },
+   "Protein":{
+      "_data":{"api_name":"protein_g","DRV":50,"CPG":4,"color":"green"}
+   },
+   "Fat":{
+      "_data":{"api_name":"fat_total_g","DRV":78,"CPG":9,"color":"#004"},
+      "Saturated Fat":{"_data":{"api_name":"fat_saturated_g","DRV":20,"color":"#008"}}
+   },
+   "Micronutrients":{
+      "Sodium":{
+         "_data":{"api_name":"sodium_mg","DRV":2300,"color":"yellow"}
+      },
+      "Potassium":{
+         "_data":{"api_name":"potassium_mg","DRV":4700,"color":"orange"}
+      }
+   }
+}

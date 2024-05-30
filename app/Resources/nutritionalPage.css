@@ -1,0 +1,136 @@
+#nutritionalCircle {
+   flex: 2;
+   padding: 50px;
+   padding-top: 10px;
+}
+
+#colorKey {
+   padding-bottom: 10px;
+}
+
+#keyIMG {
+   width: 67.5vh;
+}
+
+#calorieCounter {
+   padding-top: 30px;
+}
+
+#mealLogger {
+   flex: 1;
+   padding: 30px
+}
+
+/* NUTRITION WHEEL */
+
+.nutritionWheel {
+   /* ensure sectors originate from the center */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   /* set size of wheel */
+   width:50vh;
+   height:50vh;
+
+   /* make it round */
+   border-radius: 50%;
+
+   /* draw rings */
+   border:4px solid #222;
+}
+.sectorMask {
+   /* allow sectors to overlap */
+   position:absolute;
+
+   /* hide parts of sector elements that get transformed outside of the circle */
+   overflow:hidden;
+
+   /* make it round */
+   border-radius: 50%;
+
+   /* size */
+   width:inherit;
+   height:inherit;
+}
+
+.sector {
+   /* set rotation point to circle center */
+   transform-origin: 0% 0%;
+
+   /* sector starting position */
+   position:absolute;
+   left:50%;
+   top:50%;
+
+   /* set size - makes max allowed angle 90deg */
+   width:50%;
+   height:50%;
+
+   /* misc */
+   background-color:red;
+}
+
+.ring {
+   /* position */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   /* make it round */
+   border-radius: 50%;
+
+   /* size */
+   width:inherit;
+   height:inherit;
+
+   /* draw rings */
+   border:inherit;
+
+   /* scale */
+   scale:0.67;
+}
+
+.nutritionWheel>.sectorMask>.sector {
+   border: 2px solid black;
+}
+
+#recipeAdder {
+   margin-bottom: 10px;
+}
+
+#formLogMeal {
+   margin-bottom: 10px;
+   margin-right: 10px;
+}
+
+table {
+   border-collapse: separate; 
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+th, td {
+   padding: 2px 10px;
+   border-bottom: 2px solid black;
+}
+
+th {
+   border: 2px solid black;
+}
+td {
+   border-right: 2px solid black;
+}
+td:last-child {
+   border-right: 0px;
+}
+
+
+input {
+   margin-top: 10px;
+}
+
+#keyIMG {
+   width: 100%;
+}

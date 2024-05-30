@@ -1,0 +1,3 @@
+So we first begin on the home page, and we have a list of information such as our mission and our team. We can then sign in and be brough to the sign_up page. We sign in the complete some questions in the questionaire page, and then we finally see our nutrition_page. We can use the pull-tabs to pull out certain times, such as snack, breakfast, lunch, and dinner. We developed personas as people who really want to improve their health. 
+
+`https://chenw23rpi.eastus.cloudapp.azure.com/team10/mockup`

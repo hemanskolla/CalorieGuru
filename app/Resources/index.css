@@ -1,0 +1,56 @@
+#body #mission_and_vision {
+    flex: 1;
+    background-color: var(--p1Color-lightGrey);
+    height: 100%;
+    border-right: 3px solid var(--p1Color-darkGrey);
+    padding-right: 10px;
+}
+
+#body #mission_and_vision p {
+    padding: 10px;
+    margin: 10%;
+    background-color: var(--p1Color-lightGreen);
+}
+
+#body #team {
+    background-color: var(--p1Color-lightGrey);
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+#body #team section {
+    display: flex;
+    width: 95%;
+    /* width: 100%; */
+    padding: 7px;
+    margin-bottom: 20px;
+    background-color: var(--p1Color-lightGreen);
+    align-items: center;
+}
+
+#body #team section img {
+    width: 150px;
+    border: 3.5px solid var(--p1Color-darkGrey);
+}
+
+#body #team section p {
+    margin-left: 35px;
+    padding: 5px;
+
+    font-size: 1.7em;
+}
+
+#body h1 {
+    background-color: var(--p1Color-green);
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+#body p {
+    color: var(--p1Color-darkGrey);
+    overflow: auto;
+    font-size: 1.2em;
+}

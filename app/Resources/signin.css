@@ -1,0 +1,17 @@
+/* Start sign in  */
+
+#sign-in-page {
+    width: 100%;
+    align-items: center;
+    
+    height: 82.5vh;
+}
+
+#addForm {
+    width: 20%;
+    padding: 10px;
+}
+
+.value {
+    margin-bottom: 10px;
+}
